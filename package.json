@@ -1,0 +1,31 @@
+{
+  "name": "selenium-javascript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "mocha"
+  },
+  "scripts": {
+    "test": "mocha --parallel test/*Test.js",
+    "testGrep": "npm test -- --grep 'Dynamic Loading'",
+    "testShallow": "npm test -- --grep @shallow",
+    "testDeep": "npm test -- --grep @deep"
+  },
+  "mocha": {
+    "timeout": 60000
+  },
+  "keywords": [
+    "selenium",
+    "javascript",
+    "mocha"
+  ],
+  "dependencies": {
+    "chromedriver": "^101.0.0",
+    "geckodriver": "^3.0.1",
+    "mocha": "^7.2.0",
+    "mocha-parallel-tests": "^2.3.0",
+    "selenium-webdriver": "^4.1.2",
+    "webkit": "^0.0.0"
+  }
+}
