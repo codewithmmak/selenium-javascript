@@ -33,10 +33,10 @@
 * Go to Project root directory and run command: `npm update`
 
 ### How to view HTML report
-* Go to Project root directory: `./playwright-report/index.html`
+* Go to Project root directory: ``
 
 ### How to view failed test screenshot
-* Go to Project root directory: `./test-results/`
+* Go to Project root directory: ``
 
 ### Sample Allure Test Report
 ![Selenium and JavaScript Test Report](./assets/test-report.png?raw=true "Selenium and JavaScript Test Report")
